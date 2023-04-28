@@ -2,7 +2,7 @@
     "name": "devtools-marvellous/laravel-core-auth",
     "description": "Core Auth microservice",
     "type": "library",
-    "version": "2.1.5",
+    "version": "2.1.6",
     "authors": [
         {
             "name": "Yure Nery",
