@@ -53,7 +53,7 @@ class CustomPassportServiceProvider extends PassportServiceProvider
                 case 'refresh-token-grant':
                     $this->isEnableNeeded($request, $environment) ?
                         $server->enableGrantType(
-                            $this->makeRefreshTokenGrant(), Passport::refreshTokensExpireIn()
+                            $this->makeRefreshTokenGrant(), Passport::tokensExpireIn()
                         ) :
                         null;
                     break;
