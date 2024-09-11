@@ -10,13 +10,16 @@
         }
     ],
     "require": {
-        "php": "^7.4",
-        "laravel/framework": "^8.0",
+        "php": "^8.0",
+        "laravel/framework": "^10.0",
         "laravel/passport": "^10.0",
-        "devtools-marvellous/laravel-core-classes": "^1.0.0",
-        "devtools-marvellous/laravel-core-verification-broker": "^1.1.2",
+        "devtools-marvellous/laravel-core-classes": "^1.1.14",
+        "devtools-marvellous/laravel-core-verification-broker": "^1.1.3",
         "staudenmeir/eloquent-has-many-deep": "^1.13",
-        "devtools-marvellous/postman-documentation": "^1.0"
+        "devtools-marvellous/postman-documentation": "^1.2.12"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^8.22.0"
     },
     "autoload": {
         "psr-4": {
@@ -27,11 +30,6 @@
         "psr-4": {
             "Tests\\": "tests/"
         }
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^8.5",
-        "orchestra/testbench": "^6.0",
-        "devtools-marvellous/laravel-core-test-bench": "^1.0.1"
     },
     "extra": {
         "laravel": {
