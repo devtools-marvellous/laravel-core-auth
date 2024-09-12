@@ -2,7 +2,7 @@
     "name": "devtools-marvellous/laravel-core-auth",
     "description": "Core Auth microservice",
     "type": "library",
-    "version": "2.1.6",
+    "license": "MIT",
     "authors": [
         {
             "name": "Yure Nery",
@@ -10,16 +10,16 @@
         }
     ],
     "require": {
-        "php": "^8.0",
+        "php": ">=8.0",
         "laravel/framework": "^10.0",
-        "laravel/passport": "^10.0",
-        "devtools-marvellous/laravel-core-classes": "^1.1.14",
+        "laravel/passport": "^11.0",
+        "devtools-marvellous/laravel-core-classes": "^1.1.15",
         "devtools-marvellous/laravel-core-verification-broker": "^1.1.3",
         "staudenmeir/eloquent-has-many-deep": "^1.13",
         "devtools-marvellous/postman-documentation": "^1.2.12"
     },
     "require-dev": {
-        "orchestra/testbench": "^8.22.0"
+        "orchestra/testbench": "^8.0"
     },
     "autoload": {
         "psr-4": {
